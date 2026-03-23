@@ -18,7 +18,7 @@ O Food Click é um projeto acadêmico desenvolvido no Instituto Federal de Perna
   * JavaScript
   * Laravel
 
-    ## Desenvolvedores
+  ## Desenvolvedores
 
-    [Eloisa](https://github.com/eloisagaaby)
-    [Elioenai](https://github.com/Elieonai)
+  [Eloisa](https://github.com/eloisagaaby)
+  [Elioenai](https://github.com/Elieonai)
