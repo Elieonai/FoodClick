@@ -11,14 +11,14 @@ O Food Click é um projeto acadêmico desenvolvido no Instituto Federal de Perna
 * Facilidade no pagamento: Pode incluir opções digitais ou agilizar o pagamento no local.
 * Gestão de vendas: ajuda os vendedores a controlarem pedidos e demandas.
 
-  ## Tecnologias
+## Tecnologias
   * HTML
   * CSS
   * PHP
   * JavaScript
   * Laravel
 
-  ## Desenvolvedores
+ ## Desenvolvedores
 
   [Eloisa](https://github.com/eloisagaaby)
   [Elioenai](https://github.com/Elieonai)
