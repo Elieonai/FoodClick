@@ -1,5 +1,5 @@
 # FoodClick
-O FoodClick é um projeto acadêmico desenvolvido no Instituto Federal de Pernambuco, com foco no campus Campus Igarassu do IFPE.
+O FoodClick é um projeto acadêmico desenvolvido no Instituto Federal de Pernambuco, com foco no Campus Igarassu do IFPE.
  Seu principal objetivo é melhorar a venda de lanches dentro do campus, facilitando a comunicação entre vendedores e alunos, além de tornar o processo de compra mais rápido e organizado.
 
 ## Funcionalidades
