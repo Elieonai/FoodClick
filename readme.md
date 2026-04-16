@@ -25,13 +25,13 @@ O FoodClick é um projeto acadêmico desenvolvido no Instituto Federal de Pernam
 
 ## Passo a Passo para preparar o Ambiente Laravel
 
-Passo 1: instalar o WSl
-passo 2: sudo apt update && sudo apt upgrade -y // Atualizar o WSL
-passo 3: sudo apt install php php-cli php-mbstring php-xml php-bcmath php-curl php-mysql unzip curl -y // Instalar o PHP e Extensões
-passo 4: cd ~
+* Passo 1: instalar o WSl
+* passo 2: sudo apt update && sudo apt upgrade -y // Atualizar o WSL
+* passo 3: sudo apt install php php-cli php-mbstring php-xml php-bcmath php-curl php-mysql unzip curl -y // Instalar o PHP e Extensões
+* passo 4: cd ~
 curl -sS https://getcomposer.org/installer | php    // Instalar o Composer
 sudo mv composer.phar /usr/local/bin/composer
-passo 5: composer -v // Verificar se o Composer esta instalado
-passo 6: composer global require laravel/installer // Instalação do Laravel
-passo 7: echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bashrc
+* passo 5: composer -v // Verificar se o Composer esta instalado
+* passo 6: composer global require laravel/installer // Instalação do Laravel
+* passo 7: echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc   //Adicionar o Composer ao PATH
