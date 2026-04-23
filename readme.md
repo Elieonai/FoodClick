@@ -1,9 +1,9 @@
 # FoodClick
 O FoodClick é um projeto acadêmico desenvolvido no Instituto Federal de Pernambuco, com foco no Campus Igarassu do IFPE.
- Seu principal objetivo é melhorar a venda de lanches dentro do campus, facilitando a comunicação entre vendedores e alunos, além de tornar o processo de compra mais rápido e organizado.
+
+Seu principal objetivo é melhorar a venda de lanches dentro do campus, facilitando a comunicação entre vendedores e alunos, além de tornar o processo de compra mais rápido e organizado.
 
 ## Funcionalidades
-
 
 * Visualização de cardápios: permite que os usuários vejam os lanches disponíveis.
 * Realização de pedidos online: os alunos podem fazer pedidos sem precisar enfrentar filas.
@@ -12,26 +12,59 @@ O FoodClick é um projeto acadêmico desenvolvido no Instituto Federal de Pernam
 * Gestão de vendas: ajuda os vendedores a controlarem pedidos e demandas.
 
 ## Tecnologias
-  * HTML
-  * CSS
-  * PHP
-  * JavaScript
-  * Laravel
 
- ## Desenvolvedores
+* HTML
+* CSS
+* PHP
+* JavaScript
+* Laravel
 
-  [Eloisa](https://github.com/eloisagaaby)
-  [Elioenai](https://github.com/Elieonai)
+## Desenvolvedores
 
-## Passo a Passo para preparar o Ambiente Laravel
+- [Eloisa](https://github.com/eloisagaaby)
+- [Elioenai](https://github.com/Elieonai)
 
-* Passo 1: instalar o WSl
-* passo 2: sudo apt update && sudo apt upgrade -y // Atualizar o WSL
-* passo 3: sudo apt install php php-cli php-mbstring php-xml php-bcmath php-curl php-mysql unzip curl -y // Instalar o PHP e Extensões
-* passo 4: cd ~
-curl -sS https://getcomposer.org/installer | php    // Instalar o Composer
+## Executando o Projeto
+
+### Passo a Passo para preparar o Ambiente Laravel
+
+#### Passo 1: instalar o WSl
+
+#### passo 2: Atualizar o WSL
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+#### passo 3: Instalar o PHP e Extensões
+
+```bash
+sudo apt install php php-cli php-mbstring php-xml php-bcmath php-curl php-mysql unzip curl -y
+```
+  
+#### passo 4: Instalar o Composer
+
+```bash
+cd ~
+curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
-* passo 5: composer -v // Verificar se o Composer esta instalado
-* passo 6: composer global require laravel/installer // Instalação do Laravel
-* passo 7: echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bashrc
+```
+  
+#### passo 5: Verificar se o Composer esta instalado
+
+```bash
+composer -v
+```
+
+#### passo 6: Instalação do Laravel
+
+```bash
+composer global require laravel/installer
+```
+
+#### passo 7
+
+```bash
+echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc   //Adicionar o Composer ao PATH
+```
